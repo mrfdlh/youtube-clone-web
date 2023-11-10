@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid Practice</title>
+    </head>
+    <body style="padding-bottom: 1000px;">
+        <div style="
+            display: grid;
+            grid-template-columns: 100px 100px;
+            ">
+            <div style="background-color: lightblue;">div 1</div>
+            <div style="background-color: lightpink;">div 2<p>text</p></div>
+
+        </div>
+
+        <div style="
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 100px 100px 200px;
+            ">
+            <div style="background-color: lightblue;">100px</div>
+            <div style="background-color: lightpink;">100px<p>text</p></div>
+            <div style="background-color: lightblue;">200px</div>
+            <div style="background-color: lightpink;">100px</div>
+        </div>
+
+            <div style="
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 100px 1fr;
+            ">
+            <div style="background-color: lightblue;">100px</div>
+            <div style="background-color: lightpink;">1fr</div>
+        </div>
+
+            <div style="
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 100px 1fr 2fr;
+            ">
+            <div style="background-color: lightblue;">100px</div>
+            <div style="background-color: lightpink;">1fr</div>
+            <div style="background-color: lightblue;">2fr</div>
+        </div>
+
+            <div style="
+                margin-top: 30px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 20px;
+                row-gap: 40px;
+                ">
+                <div style="background-color: lightblue; height: 200px;">1fr</div>
+                <div style="background-color: lightpink; height: 200px;">1fr</div>
+                <div style="background-color: lightblue; height: 200px;">1fr</div>
+                <div style="background-color: lightpink; height: 200px;">1fr</div>
+                <div style="background-color: lightblue; height: 200px;">1fr</div>
+                <div style="background-color: lightpink; height: 200px;">1fr</div>
+        </div>
+
+        <div style="
+        display: grid;
+        grid-template-columns: 200px 75px;
+        margin-top: 30px;
+        
+        ">
+            <div style="background-color: lightblue;">200px</div>
+            <div style="background-color: lightpink;">75px</div>
+        </div>
+
+        <div style="
+        display: grid;
+        grid-template-columns: 50px 1fr 75px;
+        margin-top: 30px;
+        
+        ">
+            <div style="background-color: lightblue;">col1</div>
+            <div style="background-color: lightpink;">col2</div>
+            <div style="background-color: lightblue;">col1</div>
+
+        </div>
+
+        <div style="
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 10px;
+        margin-top: 30px;
+        ">
+            <div style="background-color:lightpink">col1</div>
+            <div style="background-color:lightpink">col2</div>
+            <div style="background-color:lightpink">col3</div>
+            <div style="background-color:lightpink">col4</div>
+            <div style="background-color:lightpink">col1</div>
+            <div style="background-color:lightpink">col2</div>
+            <div style="background-color:lightpink">col3</div>
+            <div style="background-color:lightpink">col4</div>
+        </div>
+
+
+
+        
+
+        <style>
+
+            p{
+                margin-top: 0px;
+                margin-bottom: 0px;
+                font-family: Arial;
+            }
+            .profile{
+                width: 200px;
+                margin-bottom: 8px;
+            }
+
+            .profile-name{
+                font-size: 20px;
+                font-weight: bolder;
+                margin-bottom: 8px;
+            }
+
+            .mutual-pic{
+                border-radius: 30px;
+                width: 30px;
+            }
+
+            .mutual{
+                vertical-align: top;
+                color: grey;
+            }
+
+            .add-friend{
+                padding-left: 20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-right: 20px;
+                border-radius: 4px;
+                color: white;
+                background-color: rgb(30, 121, 249);
+                border: none;
+                margin-bottom: 20px;
+            }
+
+        </style>
+        <div style="
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            margin-top: 30px;
+            column-gap: 20px;
+            ">
+            <div>
+                <img class="profile" src="latihan/ba927ff34cd961ce2c184d47e8ead9f6.jpg">
+                <div style="box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);">
+                    <p class="profile-name">Oliver</p>
+                    <div style="
+                    display: grid;
+                    grid-template-columns: 30px 1fr;
+                    column-gap: 8px;
+                    margin-bottom: 8px;
+                    ">
+                        <img class="mutual-pic" src="channel-pictures/channel-6.jpeg">
+                        <p class="mutual">2 mutual friends</p>
+                    </div> 
+                    <button class="add-friend">Add Friend</button>
+                </div>
+            </div>
+            <div>
+                <img class="profile" src="latihan/ba927ff34cd961ce2c184d47e8ead9f6.jpg">
+            </div>
+            <div>
+                <img class="profile" src="latihan/ba927ff34cd961ce2c184d47e8ead9f6.jpg">
+            </div>
+        </div>
+
+</body>
+    </body>
+</html>
